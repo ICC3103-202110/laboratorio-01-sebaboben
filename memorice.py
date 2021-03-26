@@ -40,8 +40,14 @@ puntos2 = 0
 cont = 0
 
 
-while puntos1 + puntos2 < n :
-    
+while (puntos1 + puntos2) < n :
+    print("\n")
+    print("puntos jugador 1:")
+    print(puntos1)
+    print("puntos jugador 2:")
+    print(puntos2)
+    print("\n")
+
     c1 = []
     c2 = []
     contnum = 0 
@@ -96,8 +102,7 @@ while puntos1 + puntos2 < n :
         if numcard2 == numcard:
             estados[index1] = "--"
             estados[index2] = "--"
-
-        puntos1 = puntos1+1
+            puntos1 = puntos1+1
 
         cont = 1
 
@@ -138,8 +143,8 @@ while puntos1 + puntos2 < n :
         if numcard2 == numcard:
             estados[index1] = "--"
             estados[index2] = "--"
-
-        puntos2 = puntos2+1
+            puntos2 = puntos2+1
+        
         cont = 0
 
 
