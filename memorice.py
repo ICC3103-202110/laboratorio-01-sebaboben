@@ -62,6 +62,7 @@ while (puntos1 + puntos2) < n :
                 c2.append(x)
             else:
                 c2.append("--")
+        contnum = contnum+1
     print(c1)
     print(c2)
 
